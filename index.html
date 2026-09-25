@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singh Car Wash - Professional Car Care & Accessories</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #121212; color: #ffffff; line-height: 1.6; }
+        header { background: #1f1f1f; padding: 25px; text-align: center; border-bottom: 3px solid #ffcc00; }
+        header h1 { color: #ffcc00; font-size: 2.5rem; margin-bottom: 5px; }
+        header p { color: #ccc; font-size: 1.1rem; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        
+        section { margin: 40px 0; }
+        h2 { text-align: center; color: #ffcc00; margin-bottom: 25px; font-size: 2rem; border-bottom: 2px solid #333; display: inline-block; padding-bottom: 5px; }
+        .center-heading { text-align: center; }
 
+        /* Products Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: #1e1e1e; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.5); border: 1px solid #333; text-align: center; padding-bottom: 15px; }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card h3 { margin: 15px 0 10px; color: #fff; font-size: 1.3rem; }
+        .btn { display: inline-block; background: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; transition: 0.3s; }
+        .btn:hover { background: #1ebe5d; }
+
+        /* Booking Form */
+        .booking-box { background: #1e1e1e; padding: 30px; border-radius: 10px; max-width: 600px; margin: auto; border: 1px solid #333; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; color: #ffcc00; font-weight: bold; }
+        .form-group input, .form-group select { width: 100%; padding: 12px; border-radius: 5px; border: 1px solid #444; background: #2a2a2a; color: #fff; font-size: 1rem; }
+        .submit-btn { width: 100%; background: #ffcc00; color: #000; font-weight: bold; border: none; padding: 12px; border-radius: 5px; font-size: 1.1rem; cursor: pointer; transition: 0.3s; }
+        .submit-btn:hover { background: #e6b800; }
+
+        /* Location Section */
+        .location-box { text-align: center; background: #1e1e1e; padding: 30px; border-radius: 10px; border: 1px solid #333; max-width: 600px; margin: auto; }
+        .map-btn { background: #4285F4; color: white; margin-top: 15px; display: inline-block; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-weight: bold; }
+        .map-btn:hover { background: #357ae8; }
+
+        footer { text-align: center; padding: 20px; background: #1a1a1a; color: #777; margin-top: 50px; border-top: 1px solid #333; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SINGH CAR WASH</h1>
+        <p>Professional Car Care, Premium Accessories & Instant Token Booking</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Products & Accessories Section (Gallery) -->
+        <section>
+            <div class="center-heading"><h2>Our Accessories Gallery</h2></div>
+            <div class="grid">
+                <!-- 1. Eagle Showpiece -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80" alt="Eagle Showpiece">
+                    <h3>Eagle Dashboard Showpiece</h3>
+                    <a href="https://wa.me/919855953842?text=Hello,%20I%20want%20to%20buy%20the%20Eagle%20Dashboard%20Showpiece." class="btn" target="_blank">Order on WhatsApp</a>
+                </div>
+                <!-- 2. Steering & Eagle Combo -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80" alt="Steering & Eagle Combo">
+                    <h3>Steering & Eagle Combo</h3>
+                    <a href="https://wa.me/919855953842?text=Hello,%20I%20want%20to%20buy%20the%20Steering%20&%20Eagle%20Combo." class="btn" target="_blank">Order on WhatsApp</a>
+                </div>
+                <!-- 3. Golden Jaguar Showpiece -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80" alt="Golden Jaguar Showpiece">
+                    <h3>Golden Jaguar Showpiece</h3>
+                    <a href="https://wa.me/919855953842?text=Hello,%20I%20want%20to%20buy%20the%20Golden%20Jaguar%20Showpiece." class="btn" target="_blank">Order on WhatsApp</a>
+                </div>
+                <!-- 4. LED Headlights -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80" alt="LED Headlights">
+                    <h3>Pro & Elite LED Headlights</h3>
+                    <a href="https://wa.me/919855953842?text=Hello,%20I%20want%20to%20enquire%20about%20LED%20Headlights." class="btn" target="_blank">Order on WhatsApp</a>
+                </div>
+                <!-- 5. Tennis Theme Showpiece -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1622543925917-763c34d1a86e?auto=format&fit=crop&w=600&q=80" alt="Tennis Showpiece">
+                    <h3>Tennis Theme Showpiece</h3>
+                    <a href="https://wa.me/919855953842?text=Hello,%20I%20want%20to%20buy%20the%20Tennis%20Theme%20Showpiece." class="btn" target="_blank">Order on WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Smart Booking & Token Section -->
+        <section>
+            <div class="center-heading"><h2>Book Car Wash Time Slot</h2></div>
+            <div class="booking-box">
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="carNumber">Car Number</label>
+                        <input type="text" id="carNumber" required placeholder="e.g. PB03AB1234">
+                    </div>
+                    <div class="form-group">
+                        <label for="timeSlot">Select Time Slot</label>
+                        <select id="timeSlot" required>
+                            <option value="">Choose Your Time</option>
+                            <option value="10:00 AM - 11:00 AM">10:00 AM - 11:00 AM</option>
+                            <option value="11:00 AM - 12:00 PM">11:00 AM - 12:00 PM</option>
+                            <option value="12:00 PM - 01:00 PM">12:00 PM - 01:00 PM</option>
+                            <option value="02:00 PM - 03:00 PM">02:00 PM - 03:00 PM</option>
+                            <option value="03:00 PM - 04:00 PM">03:00 PM - 04:00 PM</option>
+                            <option value="04:00 PM - 05:00 PM">04:00 PM - 05:00 PM</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn">Get Token & Send to WhatsApp</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Live Location Section -->
+        <section>
+            <div class="center-heading"><h2>Workshop Location</h2></div>
+            <div class="location-box">
+                <p style="margin-bottom: 10px; font-size: 1.1rem; color: #ddd;">Singh Car Wash, Main Workshop Road</p>
+                <p style="color: #888; font-size: 0.9rem; margin-bottom: 15px;">Click the button below to view our exact live location on Google Maps:</p>
+                <a href="https://maps.google.com/?q=Singh+Car+Wash" class="map-btn" target="_blank">Open Live Location in Google Maps</a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Singh Car Wash. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            let name = document.getElementById('name').value;
+            let carNumber = document.getElementById('carNumber').value;
+            let timeSlot = document.getElementById('timeSlot').value;
+            
+            // रैंडम टोकन नंबर जनरेट करने के लिए
+            let tokenNumber = Math.floor(100 + Math.random() * 900); 
+
+            // WhatsApp मैसेज का ऑटोमैटिक फॉर्मेट (+919855953842 पर भेजने के लिए)
+            let whatsappMessage = `Hello Singh Car Wash,%0A%0ANew Booking Request:%0A*Token No:* #${tokenNumber}%0A*Name:* ${name}%0A*Car Number:* ${carNumber}%0A*Time Slot:* ${timeSlot}%0A%0APlease confirm my booking!`;
+
+            let whatsappUrl = `https://wa.me/919855953842?text=${whatsappMessage}`;
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+
+</body>
+</html>
